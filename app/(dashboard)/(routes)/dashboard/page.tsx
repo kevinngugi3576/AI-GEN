@@ -1,5 +1,6 @@
 "use client";
 
+
 import {
   ArrowRight,
   MessageSquare,
@@ -13,30 +14,34 @@ import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import { useRouter } from "next/navigation";
 
+
+
+
+
 const tools = [
   {
-    label: "Conversation",
+    label: "Lets Talk",
     icon: MessageSquare,
     color: "text-violet-500",
     bgcolor: "bg-violet-500/10",
     href: "/conversation",
   },
   {
-    label: "Music Generation",
+    label: "TuneBox",
     icon: Music,
     color: "text-green-500",
     bgcolor: "bg-emarald-500/10",
     href: "/music",
   },
   {
-    label: "Image Generation",
+    label: "PhotoHub",
     icon: ImageIcon,
     color: "text-pink-500",
     bgcolor: "bg-pink-500/10",
-    href: "/music",
+    href: "/image",
   },
   {
-    label: "Video Generation",
+    label: "ClipShow",
     icon: VideoIcon,
     color: "text-orange-700",
     bgcolor: "bg-orange-700/10",
